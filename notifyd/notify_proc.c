@@ -44,6 +44,9 @@
 #include "notify_internal.h"
 #include "notifyServer.h"
 #include <sandbox.h>
+#ifdef DARLING
+#include <errno.h>
+#endif
 
 static inline void proc_cancel(proc_data_t *pdata);
 

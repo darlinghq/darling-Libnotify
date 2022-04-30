@@ -15,7 +15,6 @@ set(notifyd_sources
 	notify_proc.c
 	pathwatch.c
 	service.c
-	timer.c
 	${CMAKE_CURRENT_BINARY_DIR}/notify_ipcServer.c
 	${CMAKE_CURRENT_BINARY_DIR}/notifyServer.c
 )
